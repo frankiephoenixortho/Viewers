@@ -200,7 +200,7 @@ const moreTools = [
           ],
           'Angle'
         ),
-		ToolbarService._createToolButton(
+        ToolbarService._createToolButton(
           'Cobb Angle',
           'tool-cobb-angle',
           'Cobb Angle',
@@ -213,7 +213,7 @@ const moreTools = [
               context: 'CORNERSTONE',
             },
           ],
-          'CobAngle'
+          'CobbAngle'
         ),
         // Next two tools can be added once icons are added
         // ToolbarService._createToolButton(
