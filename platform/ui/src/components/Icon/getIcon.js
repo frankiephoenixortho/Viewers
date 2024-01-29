@@ -94,6 +94,7 @@ import toolMove from './../../assets/icons/tool-move.svg';
 import toolWindow from './../../assets/icons/tool-window-level.svg';
 import toolAnnotate from './../../assets/icons/tool-annotate.svg';
 import toolBidirectional from './../../assets/icons/tool-bidirectional.svg';
+import toolCobbAngle from './../../assets/icons/tool-cobb-angle.svg';
 import toolElipse from './../../assets/icons/tool-elipse.svg';
 import toolCircle from './../../assets/icons/tool-circle.svg';
 import toolLength from './../../assets/icons/tool-length.svg';
