@@ -1,6 +1,6 @@
 window.config = {
-whiteLabeling: {
-    createLogoComponentFn: function(React) {
+  whiteLabeling: {
+    createLogoComponentFn: function (React) {
       return React.createElement(
         'a',
         {
@@ -11,7 +11,7 @@ whiteLabeling: {
         },
         React.createElement('img', {
           src: './customLogo.svg',
-           className: 'w-8 h-8',
+          className: 'w-8 h-8',
         })
       );
     },
