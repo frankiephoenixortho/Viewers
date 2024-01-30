@@ -208,7 +208,7 @@ const moreTools = [
             {
               commandName: 'setToolActive',
               commandOptions: {
-                toolName: 'CobbAngle',
+                toolName: '',
               },
               context: 'CORNERSTONE',
             },
