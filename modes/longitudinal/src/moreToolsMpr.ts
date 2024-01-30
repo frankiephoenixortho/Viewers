@@ -57,19 +57,19 @@ const moreToolsMpr = [
           'Reset'
         ),
         ToolbarService._createToggleButton(
-          'StackImageSync',
+          'ImageSliceSync',
           'link',
-          'Stack Image Sync',
+          'Image Slice Sync',
           [
             {
-              commandName: 'toggleStackImageSync',
+              commandName: 'toggleImageSliceSync',
             },
           ],
           'Enable position synchronization on stack viewports',
           {
             listeners: {
               [EVENTS.STACK_VIEWPORT_NEW_STACK]: {
-                commandName: 'toggleStackImageSync',
+                commandName: 'toggleImageSliceSync',
                 commandOptions: { toggledState: true },
               },
             },
@@ -175,21 +175,22 @@ const moreToolsMpr = [
           'Angle'
         ),
 
-        ToolbarService._createToolButton(
-          'Cobb Angle',
-          'tool-cobb-angle',
-          'Cobb Angle',
-          [
-            {
-              commandName: 'setToolActive',
-              commandOptions: {
-                toolName: 'CobbAngle',
-              },
-              context: 'CORNERSTONE',
-            },
-          ],
-          'Cobb Angle'
-        ),
+        // Next two tools can be added once icons are added
+        // ToolbarService._createToolButton(
+        //   'Cobb Angle',
+        //   'tool-cobb-angle',
+        //   'Cobb Angle',
+        //   [
+        //     {
+        //       commandName: 'setToolActive',
+        //       commandOptions: {
+        //         toolName: 'CobbAngle',
+        //       },
+        //       context: 'CORNERSTONE',
+        //     },
+        //   ],
+        //   'Cobb Angle'
+        // ),
         // ToolbarService._createToolButton(
         //   'Planar Freehand ROI',
         //   'tool-freehand',
