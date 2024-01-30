@@ -539,21 +539,21 @@ const toolbarButtons: Button[] = [
         ),
 
         // Next two tools can be added once icons are added
-         _createToolButton(
-           'Cobb Angle',
-           'tool-cobb-angle',
-           'Cobb Angle',
-           [
-             {
-               commandName: 'setToolActive',
-               commandOptions: {
-                 toolName: 'CobbAngle',
-               },
-               context: 'CORNERSTONE',
-             },
-           ],
-           'Cobb Angle'
-         ),
+        //_createToolButton(
+        // 'Cobb Angle',
+        // 'tool-cobb-angle',
+        // 'Cobb Angle',
+        // [
+        //   {
+        //     commandName: 'setToolActive',
+        //     commandOptions: {
+        //      toolName: 'CobbAngle',
+        //    },
+        //    context: 'CORNERSTONE',
+        //  },
+        //     ],
+        //      'Cobb Angle'
+        //    ),
         // _createToolButton(
         //   'Planar Freehand ROI',
         //   'tool-freehand',
